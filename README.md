@@ -71,7 +71,7 @@ Cache 5 min + timestamp ; message si quota dépassé.
 ---
 
 ## 5. Captures d’écran
-*Ordre d’affichage : 1 → 4 → 3 → 2 → 5 → 8 → 9 → 6 → 7 → 10 → 11 → 12*  
+ 
 *Gauche : thème clair – Droite : thème sombre*
 
 | Clair | Sombre |
