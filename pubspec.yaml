@@ -47,6 +47,10 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.1
 
+  curved_navigation_bar: ^1.0.6 # Pour la barre incurvée
+  google_fonts: ^6.1.0            # Pour les polices
+  flutter_animate: ^4.5.0         # Pour des animations faciles
+
 flutter:
   uses-material-design: true
   

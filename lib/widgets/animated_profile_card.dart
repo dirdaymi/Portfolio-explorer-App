@@ -64,7 +64,7 @@ class AnimatedProfileCard extends StatelessWidget {
                   // On utilise ClipOval + Image.asset pour mieux gérer l'affichage
                   child: ClipOval(
                     child: Image.asset(
-                      'images/profile_image.jpg',
+                      'assets/images/profile_image.jpg',
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
                         // Affiche une icône si l'image ne charge pas

@@ -12,6 +12,7 @@ import 'news_screen.dart';
 import 'gallery_screen.dart';
 import 'food_screen.dart';
 import 'favorites_screen.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -288,10 +289,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   radius: 40,
                   backgroundColor: Colors.white.withOpacity(0.2),
                   // Image de profil dans le drawer
-                  backgroundImage: const AssetImage('images/profile_image.jpg'),
+                  backgroundImage: const AssetImage('assets/images/profile_image.jpg'),
                   onBackgroundImageError: (_, __) => {},
-                  // Icone par défaut en cas d'erreur
-                  child: const Icon(Icons.person, size: 40, color: Colors.white),
+
                 ),
                 const SizedBox(height: 12),
                 Text(
